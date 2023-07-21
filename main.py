@@ -243,7 +243,7 @@ if button_ind:
                                  chain_type="map_reduce",
                                  map_prompt=map_prompt_template,
                                  combine_prompt=combine_prompt_template,
-                                 # verbose=True
+                                 verbose=True
                                  )
     
     st.write("Sending to LLM...")
