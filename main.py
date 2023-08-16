@@ -189,7 +189,7 @@ output_type = st.radio(
     ('Interview Questions', '1-Page Summary'))
 
 # Collect information about the person you want to research
-person_name = st.text_input(label="Person's Name",  placeholder="Ex: Elad Gil", key="persons_name")
+person_name = st.text_input(label="Person's Name",  placeholder="Ex: Frank Matiaske", key="persons_name")
 twitter_handle = st.text_input(label="Twitter Username",  placeholder="@eladgil", key="twitter_user_input")
 youtube_videos = st.text_input(label="YouTube URLs (Use , to seperate videos)",  placeholder="Ex: https://www.youtube.com/watch?v=c_hO_fjmMnk, https://www.youtube.com/watch?v=c_hO_fjmMnk", key="youtube_user_input")
 webpages = st.text_input(label="Web Page URLs (Use , to seperate urls. Must include https://)",  placeholder="https://eladgil.com/", key="webpage_user_input")
